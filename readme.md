@@ -48,7 +48,7 @@ def main():
 ```
 - modify your ```cookie``` from F12 -> Network -> Fetch/XHR -> usage(Request Headers)
 - add image_files' addresses and prompts
-- modify your proxy
+- modify your proxy 
 
 ## Thanks
 
