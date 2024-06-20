@@ -33,6 +33,23 @@ print(i.get_limit_left())
 i.save_video("a blue cyber dream", './output')
 ```
 
+## Usage for several images and prompts
+```
+def main():
+    # Define external parameters directly in the main function
+    cookie = "yourcookie"
+    image_files = ["test_imgs/girl.png", "test_imgs/dog.png"]
+    prompts = ["A Hanfu girl", "A cute corgi sitting on the grass"]
+    output_dir = "./output"
+    proxies = {
+        "http": "http://127.0.0.1:7890",
+        "https": "http://127.0.0.1:7890",
+    }
+```
+- modify your ```cookie``` from F12 -> Network -> Fetch/XHR -> usage(Request Headers)
+- add image_files' addresses and prompts
+- modify your proxy
+
 ## Thanks
 
 - [DreamMachineAPI](https://github.com/danaigc/DreamMachineAPI)
