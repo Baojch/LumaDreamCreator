@@ -34,7 +34,7 @@ i.save_video("a blue cyber dream", './output')
 ```
 
 ## Usage for several images and prompts
-```
+```python
 def main():
     # Define external parameters directly in the main function
     cookie = "yourcookie"
@@ -48,7 +48,7 @@ def main():
 ```
 - modify your ```cookie``` from F12 -> Network -> Fetch/XHR -> usage(Request Headers)
 - add image_files' addresses and prompts
-- modify your proxy 
+- modify your proxy
 
 ## Thanks
 
